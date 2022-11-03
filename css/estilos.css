@@ -1,9 +1,12 @@
 body 
 {
+    background: #000;
     color:blue;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     font: size 10px;
+    margin: 0;
+    padding: 0;
 }
 
 #cabecera
@@ -15,6 +18,12 @@ body
     font-family: 'Courier New', Courier, monospace;
     margin: 0;
     padding: 0.5em;
+}
+
+#cabecera #logo
+{
+    width: 20px;
+    vertical-align: middle;
 }
 
 #cabecera #tagline
@@ -40,5 +49,6 @@ body
 
 #post
 {
+    background: white;
     padding: 1em;
 }
